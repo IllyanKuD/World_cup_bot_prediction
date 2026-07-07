@@ -1,0 +1,51 @@
+{
+    "matches": {
+        "93": {
+            "home_score": 0,
+            "away_score": 1,
+            "scorers": [
+                {
+                    "player_id": 734,
+                    "team_id": 29,
+                    "minute": 90
+                }
+            ],
+            "home_xg": 0.2,
+            "away_xg": 1.05
+        },
+        "94": {
+            "home_score": 1,
+            "away_score": 4,
+            "scorers": [
+                {
+                    "player_id": 329,
+                    "team_id": 13,
+                    "minute": 31
+                },
+                {
+                    "player_id": 641,
+                    "team_id": 25,
+                    "minute": 9
+                },
+                {
+                    "player_id": 641,
+                    "team_id": 25,
+                    "minute": 32
+                },
+                {
+                    "player_id": 644,
+                    "team_id": 25,
+                    "minute": 57
+                },
+                {
+                    "player_id": 633,
+                    "team_id": 25,
+                    "minute": 30
+                }
+            ],
+            "home_xg": 1.05,
+            "away_xg": 3.6
+        }
+    },
+    "bracket_teams": {}
+}
