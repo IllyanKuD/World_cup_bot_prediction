@@ -1,0 +1,12 @@
+{
+  "_comment": "Table de liens du bracket a elimination directe. Pour chaque match CIBLE (target), on indique quel match SOURCE fournit l'equipe qui jouera a domicile (home_source) et a l'exterieur (away_source), ainsi que le type de qualification attendue ('winner' ou 'loser', pour la petite finale). Les liens marques 'verified: true' ont ete confirmes en recoupant les team_id deja presents dans matches.csv (donc certains a 100%). Les liens marques 'verified: false' sont deduits par symmetrie du bracket (le tirage officiel n'etant pas encore joue a ces stades, impossible de le confirmer avec les donnees actuelles) : si l'ordre du bracket officiel differe, corriger simplement les match_id ci-dessous.",
+
+  "98":  {"home_source": 93,  "away_source": 94,  "type": "winner", "verified": false, "note": "Quart de finale. Deduit par symmetrie avec le lien verifie (89,90)->97 et (91,92)->99."},
+  "100": {"home_source": 95,  "away_source": 96,  "type": "winner", "verified": false, "note": "Quart de finale. Idem."},
+
+  "101": {"home_source": 97,  "away_source": 99,  "type": "winner", "verified": false, "note": "Demi-finale. Hypothese standard : les 2 quarts d'une meme moitie de tableau (97 et 99, issus des memes 8emes 89-92) s'affrontent."},
+  "102": {"home_source": 98,  "away_source": 100, "type": "winner", "verified": false, "note": "Demi-finale, autre moitie de tableau (98 et 100, issus des 8emes 93-96)."},
+
+  "104": {"home_source": 101, "away_source": 102, "type": "winner", "verified": false, "note": "Finale : vainqueurs des 2 demies."},
+  "103": {"home_source": 101, "away_source": 102, "type": "loser",  "verified": false, "note": "Petite finale : perdants des 2 demies."}
+}
