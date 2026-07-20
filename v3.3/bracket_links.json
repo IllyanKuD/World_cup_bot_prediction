@@ -1,0 +1,12 @@
+{
+  "_comment": "Table de liens du bracket a elimination directe. Pour chaque match CIBLE (target), on indique quel match SOURCE fournit l'equipe qui jouera a domicile (home_source) et a l'exterieur (away_source), ainsi que le type de qualification attendue ('winner' ou 'loser', pour la petite finale). Les liens marques 'verified: true' ont ete confirmes en recoupant les team_id deja presents dans matches.csv OU par confirmation explicite de l'utilisateur. Les liens marques 'verified: false' restent deduits par symmetrie du bracket.",
+
+  "98":  {"home_source": 93,  "away_source": 94,  "type": "winner", "verified": false, "note": "Quart de finale. Deduit par symmetrie avec le lien verifie (89,90)->97 et (91,92)->99."},
+  "100": {"home_source": 95,  "away_source": 96,  "type": "winner", "verified": false, "note": "Quart de finale. Idem."},
+
+  "101": {"home_source": 97,  "away_source": 98,  "type": "winner", "verified": true, "note": "Demi-finale : France (Q97) vs Espagne (Q98). Corrige le 19/07/2026 suite a confirmation utilisateur (le lien precedent (97,99) donnait a tort France-Angleterre)."},
+  "102": {"home_source": 99,  "away_source": 100, "type": "winner", "verified": true, "note": "Demi-finale : Angleterre (Q99) vs Argentine (Q100). Correction symetrique du lien 101."},
+
+  "104": {"home_source": 101, "away_source": 102, "type": "winner", "verified": false, "note": "Finale : vainqueurs des 2 demies."},
+  "103": {"home_source": 101, "away_source": 102, "type": "loser",  "verified": false, "note": "Petite finale : perdants des 2 demies."}
+}
